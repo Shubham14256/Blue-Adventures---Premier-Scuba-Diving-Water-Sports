@@ -1,6 +1,6 @@
 [build]
-  command = "npm run build"
-  publish = "dist"
+  command = "echo 'No build required'"
+  publish = "templates"   # or "frontend/dist" or whatever folder has your HTML/CSS/JS
 
 [[redirects]]
   from = "/api/*"
